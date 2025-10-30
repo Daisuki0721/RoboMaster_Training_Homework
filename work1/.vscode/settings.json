@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "*.cpp": "cpp",
+        "iostream": "cpp",
+        "vector": "cpp",
+        "stdexcept": "cpp",
+        "cmath": "cpp"
+    },
+    "cmake.sourceDirectory": "C:/Users/86769/_c++_File/RM/task1"
+}

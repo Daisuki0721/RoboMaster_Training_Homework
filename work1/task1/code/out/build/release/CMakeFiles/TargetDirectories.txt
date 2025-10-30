@@ -1,0 +1,4 @@
+C:/Users/86769/_c++_File/RM/task1/out/build/release/CMakeFiles/matrix_basic_ops.dir
+C:/Users/86769/_c++_File/RM/task1/out/build/release/CMakeFiles/matrix_transform.dir
+C:/Users/86769/_c++_File/RM/task1/out/build/release/CMakeFiles/edit_cache.dir
+C:/Users/86769/_c++_File/RM/task1/out/build/release/CMakeFiles/rebuild_cache.dir

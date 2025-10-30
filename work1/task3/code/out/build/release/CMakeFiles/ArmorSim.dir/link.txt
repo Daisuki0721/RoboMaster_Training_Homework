@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\ArmorSim.dir/objects.a
+C:\Compiler\mingw64\bin\ar.exe qc CMakeFiles\ArmorSim.dir/objects.a @CMakeFiles\ArmorSim.dir\objects1.rsp
+c:\Compiler\mingw64\bin\g++.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\ArmorSim.dir/objects.a -Wl,--no-whole-archive -o ArmorSim.exe -Wl,--out-implib,libArmorSim.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ArmorSim.dir\linkLibs.rsp

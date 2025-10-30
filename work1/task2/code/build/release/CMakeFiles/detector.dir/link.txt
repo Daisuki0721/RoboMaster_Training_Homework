@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\detector.dir/objects.a
+C:\Compiler\mingw64\bin\ar.exe qc CMakeFiles\detector.dir/objects.a @CMakeFiles\detector.dir\objects1.rsp
+c:\Compiler\mingw64\bin\g++.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\detector.dir/objects.a -Wl,--no-whole-archive -o detector.exe -Wl,--out-implib,libdetector.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\detector.dir\linkLibs.rsp

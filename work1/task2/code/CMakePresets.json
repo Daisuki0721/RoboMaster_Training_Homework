@@ -1,0 +1,51 @@
+{
+    "version": 8,
+    "configurePresets": [
+        {
+            "name": "debug",
+            "displayName": "Debug Configuration",
+            "description": "Debug build with MinGW 15.2.0",
+            "generator": "MinGW Makefiles",
+            "binaryDir": "${sourceDir}/build/debug",
+            "cacheVariables": {
+                "CMAKE_C_COMPILER": "c:/Compiler/mingw64/bin/gcc.exe",
+                "CMAKE_CXX_COMPILER": "c:/Compiler/mingw64/bin/g++.exe",
+                "CMAKE_BUILD_TYPE": "Debug",
+                "OpenCV_DIR": "C:/opencv_mingw15.2/x64/mingw/lib",
+                "OpenCV_INCLUDE_DIRS": "C:/opencv_mingw15.2/include"
+            },
+            "environment": {
+                "PATH": "C:/Compiler/mingw64/bin;C:/opencv_mingw15.2/x64/mingw/bin;"
+            }
+        },
+        {
+            "name": "release",
+            "displayName": "Release Configuration",
+            "description": "Release build with MinGW 15.2.0",
+            "generator": "MinGW Makefiles",
+            "binaryDir": "${sourceDir}/build/release",
+            "cacheVariables": {
+                "CMAKE_C_COMPILER": "c:/Compiler/mingw64/bin/gcc.exe",
+                "CMAKE_CXX_COMPILER": "c:/Compiler/mingw64/bin/g++.exe",
+                "CMAKE_BUILD_TYPE": "Release",
+                "OpenCV_DIR": "C:/opencv_mingw15.2/x64/mingw/lib",
+                "OpenCV_INCLUDE_DIRS": "C:/opencv_mingw15.2/include"
+            },
+            "environment": {
+                "PATH": "C:/Compiler/mingw64/bin;C:/opencv_mingw15.2/x64/mingw/bin;"
+            }
+        }
+    ],
+    "buildPresets": [
+        {
+            "name": "debug",
+            "configurePreset": "debug",
+            "displayName": "Build Debug"
+        },
+        {
+            "name": "release", 
+            "configurePreset": "release",
+            "displayName": "Build Release"
+        }
+    ]
+}
